@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F4N-Au-GAF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SwiftCode" translatesAutoresizingMaskIntoConstraints="NO" id="F4N-Au-GAF">
                                 <rect key="frame" x="16" y="28" width="343" height="476"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gll-ko-d68">
@@ -64,7 +64,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BeW-ZP-iUL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlockCode" translatesAutoresizingMaskIntoConstraints="NO" id="BeW-ZP-iUL">
                                 <rect key="frame" x="16" y="28" width="343" height="476"/>
                             </imageView>
                         </subviews>
@@ -110,7 +110,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tmK-Pc-ARL">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ObjectCode" translatesAutoresizingMaskIntoConstraints="NO" id="tmK-Pc-ARL">
                                 <rect key="frame" x="16" y="28" width="343" height="476"/>
                             </imageView>
                         </subviews>
@@ -148,7 +148,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-4a-reu">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BinaryCode" translatesAutoresizingMaskIntoConstraints="NO" id="kGD-4a-reu">
                                 <rect key="frame" x="16" y="28" width="343" height="476"/>
                             </imageView>
                         </subviews>
@@ -186,7 +186,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hwx-ZN-giz">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogicalGate" translatesAutoresizingMaskIntoConstraints="NO" id="hwx-ZN-giz">
                                 <rect key="frame" x="16" y="28" width="343" height="476"/>
                             </imageView>
                         </subviews>
@@ -208,4 +208,11 @@
             <point key="canvasLocation" x="3525" y="131"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BinaryCode" width="1920" height="1080"/>
+        <image name="BlockCode" width="309" height="228"/>
+        <image name="LogicalGate" width="1200" height="569"/>
+        <image name="ObjectCode" width="313" height="308"/>
+        <image name="SwiftCode" width="515" height="395"/>
+    </resources>
 </document>
