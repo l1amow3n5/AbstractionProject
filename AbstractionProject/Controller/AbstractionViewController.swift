@@ -33,9 +33,9 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
         return [
             self.newAbstractionViewController(abstractionLevel: "Swift"),
             self.newAbstractionViewController(abstractionLevel: "Block"),
-            self.newAbstractionViewController(abstractoinLevel: "ObjectCode"),
+            self.newAbstractionViewController(abstractionLevel: "ObjectCode"),
             self.newAbstractionViewController(abstractionLevel: "Binary"),
-            self.newAbstractionViewController(abstractionLevel: "LogicalGate")
+            self.newAbstractionViewController(abstractionLevel: "LogicalGate"),
         ]
     }()
     
@@ -70,6 +70,30 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
         return orderedAbstractionViews[previousIndex]
     }
     
+    public func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController?
+    {
+        guard let viewControllerIndex = orderedAbstractionViews.index(of: viewController)
+            else
+        {
+            return nil
+        }
+        
+        let nextIndex = viewControllerIndex + 1
+        
+        guard nextIndex >= 0
+            else
+        {
+            return nil
+        }
+        
+        guard nextIndex < orderedAbstractionViews.count
+            else
+        {
+            return orderedAbstractionViews.first
+        }
+        
+        return orderedAbstractionViews[nextIndex]
+    }
         
     
     /*
